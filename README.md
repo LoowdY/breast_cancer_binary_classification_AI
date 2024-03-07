@@ -21,4 +21,21 @@ The neural network model is constructed using the Sequential model from Keras. I
 
 The model uses the Adam optimizer and binary crossentropy as the loss function. The performance metric used to evaluate the model is binary accuracy.
 
+## Usage
 
+To use this classifier, you'll need to install h5py. Here's how to install it:
+
+```bash
+pip install h5py
+```
+
+You will need this package to read the .h5 file. There are two important files here, the JSON and h5 files.
+H5 files save the weights configurations. JSON files save the hyperparameters of the model.
+
+After this step, take a look at the "loading_model.py"; it will help you load the model.
+
+Basically, you just need to open the "json_breast_classifier.json" and "weights_breast_cancer_classifier.h5" files.
+Read them and use those as parameters of your model. I used `model_from_json` to initialize my network parameters and `load_weights()` method to load weights configuration.
+
+Review and correct the grammatical errors. It's documentation for GitHub and LinkedIn regarding a deep learning breast cancer classifier model.
+****
