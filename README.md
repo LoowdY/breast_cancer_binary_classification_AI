@@ -39,3 +39,8 @@ Read them and use those as parameters of your model. I used `model_from_json` to
 
 Review and correct the grammatical errors. It's documentation for GitHub and LinkedIn regarding a deep learning breast cancer classifier model.
 ****
+
+
+Link for download the data (without the division as predictors and classes): [data_brast_cancer_kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download) or Download this repository with the segregation already applied.
+
+
